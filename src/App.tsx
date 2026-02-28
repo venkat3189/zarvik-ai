@@ -78,7 +78,7 @@ export default function App() {
   };
 
   return (
-    <div className="flex flex-col h-screen max-w-4xl mx-auto bg-white shadow-2xl overflow-hidden sm:my-4 sm:h-[calc(100vh-2rem)] sm:rounded-2xl border border-black/5">
+    <div className="flex flex-col h-screen w-full bg-white overflow-hidden">
       {/* Header */}
       <header className="px-6 py-4 border-bottom border-black/5 bg-white flex items-center justify-between z-10">
         <div className="flex items-center gap-3">
